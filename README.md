@@ -1,4 +1,3 @@
-
 # AI Chat UI
 
 This project is the frontend component of the SE4458 Assignment 2 – AI Chat Agent system. It provides a real-time chat interface built with React, enabling users to send natural language messages and view responses from the backend.
@@ -38,3 +37,12 @@ API Gateway: ocelot-gateway
 Name: Efe Demirtaş  
 Course: SE4458 Software Architecture (Spring 2025)  
 Project: AI Chat Agent (Frontend)
+
+## Challenges Encountered
+
+- Coordinating communication between the React frontend, Firebase functions, and the Ocelot API Gateway required precise endpoint and method alignment.
+- Managing CORS and authorization headers when calling the gateway from cloud functions.
+- Parsing natural language reliably using OpenAI and designing consistent JSON outputs for varying user intents.
+- Handling asynchronous behavior between Firestore message writes and delayed function triggers.
+- Configuring Firebase project permissions to allow the frontend to write and read from Firestore.
+- Debugging unexpected 401 and 404 errors from the gateway during early integration.
