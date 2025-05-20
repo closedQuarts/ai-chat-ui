@@ -46,3 +46,8 @@ Project: AI Chat Agent (Frontend)
 - Handling asynchronous behavior between Firestore message writes and delayed function triggers.
 - Configuring Firebase project permissions to allow the frontend to write and read from Firestore.
 - Debugging unexpected 401 and 404 errors from the gateway during early integration.
+
+
+[Youtube](https://www.youtube.com/watch?v=t0SbUoxAgKk)
+[ocelot-gateway](https://github.com/closedQuarts/ocelot-gateway)
+[firabase-chat-agent](https://github.com/closedQuarts/firabase-chat-agent)
